@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'main_function = multirobot_navigation.main:main',
+            'compute_pallet_pose = multirobot_navigation.main:main',
             'reset_robot_pose=multirobot_navigation.robot_reset_pose:main',
             'send_pallet_pose=multirobot_navigation.send_pallet_poses:main'
         ],
